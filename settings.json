@@ -1,0 +1,145 @@
+{
+    "terminal.integrated.fontSize": 13,
+    "workbench.iconTheme": "material-icon-theme",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true,
+    },
+    "workbench.editor.showTabs": false,
+    "editor.rulers": [80],
+    // "editor.wordWrap": "wordWrapColumn",
+    // "editor.wordWrapColumn": 80,
+    // "[markdown]": {
+    //     "editor.wordWrap": "wordWrapColumn",
+    //     "editor.quickSuggestions": false
+    // },
+    "editor.scrollbar.vertical": "hidden",
+    "files.useExperimentalFileWatcher": "true",
+    "editor.wordWrap": "on",
+    "bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        [
+            "</",
+            ">"
+        ],
+        [
+            "<",
+            "/>"
+        ],
+        "<>",
+        [
+            "Gold",
+            "Orchid",
+            "LightSkyBlue"
+        ],
+        "Red"
+    ],
+
+    "python.pythonPath": "/usr/bin/python3",
+
+    // The number of spaces a tab is equal to. This setting is overriden
+    // based on the file contents when `editor.detectIndentation` is true.
+    "editor.tabSize": 2,
+
+    // Insert spaces when pressing Tab. This setting is overriden
+    // based on the file contents when `editor.detectIndentation` is true.
+    "editor.insertSpaces": true,
+
+    // When opening a file, `editor.tabSize` and `editor.insertSpaces`
+    // will be detected based on the file contents. Set to false to keep
+    // the values you've explicitly set, above.
+    "editor.detectIndentation": false,
+    "editor.detectindentation": false,
+    "window.zoomLevel": -1,
+    "files.exclude": {
+      "**/__pycache__": true,
+      "**/.eggs": true,
+      "**/.ipynb_checkpoints": true,
+      "**/.vscode": true,
+      "**/*.egg-info": true,
+      "**/*.ipynb": true,
+      "**/*.mod": true,
+      "**/*.npy": true,
+      "**/*.o": true,
+      "**/*.png": true,
+      "**/*.pyc": true,
+      "**/*.so": true,
+      "**/*.svg": true,
+      "**/*.vtr": true
+    },
+		"[makefile]":	{
+			"editor.tabSize": 2,
+			"editor.insertSpaces": false
+		},
+		"[python]": {
+			"editor.tabSize": 2,
+			"editor.insertSpaces": true,
+		},
+		"terminal.integrated.scrollback": 10000,
+		"[FortranFreeForm]": {
+			"editor.insertSpaces": true
+		},
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.recipes": [
+      {
+        "name": "pdflatex -> biber",
+        "tools": [
+          "pdflatex",
+          "biber",
+          "pdflatex",
+          "pdflatex"
+        ]
+      }
+    ],
+    "latex-workshop.latex.tools": [
+      {
+        "name": "biber",
+        "command": "biber",
+        "args": [
+            "%DOC%"
+        ]
+      },
+      {
+        "name": "pdflatex",
+        "command": "pdflatex",
+        "args": [
+          "-synctex=1",
+          "-interaction=nonstopmode",
+          "-file-line-error",
+          "%DOC%"
+        ],
+        "env": {}
+      }
+    ],
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "multiCommand.commands": [
+      {
+        "command": "multiCommand.saveAndRerun",
+        "sequence": [
+          "workbench.action.files.saveAll",
+          "extension.rerunLastCommand"
+        ]
+      }
+    ],
+    "indentRainbow.colors": [
+      "rgba(16,16,16,0.1)",
+      "rgba(16,16,16,0.2)",
+      "rgba(16,16,16,0.3)",
+      "rgba(16,16,16,0.4)",
+      "rgba(16,16,16,0.5)",
+      "rgba(16,16,16,0.6)",
+      "rgba(16,16,16,0.7)",
+      "rgba(16,16,16,0.8)",
+      "rgba(16,16,16,0.9)",
+      "rgba(16,16,16,1.0)"
+    ],
+    "gitlens.codeLens.visibility": "off",
+    "gitlens.blame.line.enabled": false,// was working in previous versions
+    "gitlens.currentLine.enabled": false,// in modern version
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "editor.fontSize": 13,
+
+  }

@@ -1,0 +1,35 @@
+{
+  "large_line_separator" : {
+    "prefix" : "++",
+    "body" : "#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#",
+    "description" : "Large line separator"
+  },
+  "medium_line_separator" : {
+    "prefix" : "--",
+    "body" : "#---------------------------------------------------------------------------#",
+    "description" : "Medium line separator"
+  },
+  "small_line_separator" : {
+    "prefix" : "..",
+    "body" : "#.........................................................................#",
+    "description" : "Small line separator"
+  },
+  "utf" : {
+    "prefix" : "utf",
+    "body" : [
+      "# -*- coding: UTF-8 -*-",
+      "",
+      "#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#"
+      ],
+    "description" : "UTF coding header"
+  },
+  "main" : {
+    "prefix" : "main",
+    "body" : [
+      "if __name__ == '__main__':",
+      "",
+      "  "
+      ],
+    "description" : "if name is main"
+  },
+}

@@ -1,0 +1,108 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+right",
+        "command": "workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "-workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "workbench.action.splitEditorOrthogonal"
+    },
+    {
+        "key": "ctrl+k ctrl+\\",
+        "command": "-workbench.action.splitEditorOrthogonal"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "workbench.action.closeWindow",
+        "when": "!editorIsOpen && !multipleEditorGroups"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.closeWindow",
+        "when": "!editorIsOpen && !multipleEditorGroups"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.closeActiveEditor"
+    },
+    {
+      "key": "ctrl+alt+s",
+      "command": "workbench.action.files.saveAll"
+		},
+		{
+			"key": "ctrl+m",
+			"command": "extension.treeview.duplicateEntity"
+		},
+		{
+			"key": "shift+enter",
+			"command": "latex-workshop.build",
+			"when": "editorTextFocus && latex-workshop:altkeymap"
+		},
+		{
+			"key": "ctrl+l alt+b",
+			"command": "-latex-workshop.build",
+			"when": "editorTextFocus && latex-workshop:altkeymap"
+		},
+		{
+			"key": "ctrl+shift+d",
+			"command": "-workbench.view.debug"
+		},
+		{
+			"key": "ctrl+shift+d",
+			"command": "duplicate.execute"
+    },
+    {
+      "key": "ctrl+shift+r",
+      "command": "extension.rerunLastCommand"
+    },
+    {
+      "key": "ctrl+r",
+      "command": "multiCommand.saveAndRerun"
+    },
+    {
+      "key": "ctrl+f7",
+      "command": "-extension.rerunLastCommand"
+    },
+    {
+      "key": "ctrl+t",
+      "command": "-workbench.action.showAllSymbols"
+    },
+    {
+      "key": "ctrl+t",
+      "command": "workbench.action.terminal.focus"
+    },
+    {
+      "key": "f5",
+      "command": "-workbench.action.debug.start",
+      "when": "!inDebugMode"
+    },
+    {
+      "key": "shift+enter",
+      "command": "-python.datascience.runcurrentcelladvance",
+      "when": "editorFocus && python.datascience.featureenabled && python.datascience.hascodecells && !editorHasSelection"
+    },
+    {
+      "key": "shift+enter",
+      "command": "-python.datascience.execSelectionInteractive",
+      "when": "editorFocus && python.datascience.featureenabled && python.datascience.ownsSelection && !findInputFocussed && !replaceInputFocussed && editorLangId == 'python'"
+    },
+    {
+      "key": "shift+enter",
+      "command": "-python.execSelectionInTerminal",
+      "when": "editorFocus && !findInputFocussed && !python.datascience.ownsSelection && !replaceInputFocussed && editorLangId == 'python'"
+    },
+    {
+      "key": "shift+enter",
+      "command": "-settings.action.focusPreviousSetting",
+      "when": "inSettingsSearch"
+    }
+]

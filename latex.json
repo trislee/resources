@@ -1,0 +1,34 @@
+{
+  "begin-equation" : {
+    "prefix": "beq",
+    "body": [
+      "\\begin{equation}",
+      "  $1",
+      "\\end{equation}"
+    ],
+    "description": "create equation"
+  },
+  "begin-align" : {
+    "prefix": "bea",
+    "body": [
+      "\\begin{align}",
+      "  $1",
+      "\\end{align}"
+    ],
+    "description": "create align"
+  },
+  "begin-pmatrix" : {
+    "prefix": "bpm",
+    "body": [
+      "\\begin{pmatrix}",
+      "  $1",
+      "\\end{pmatrix}"
+    ],
+    "description": "create pmatrix"
+  },
+  "fraction" : {
+    "prefix": "fr",
+    "body": "\\frac{$1}{$2}",
+    "description": "create fraction"
+  },
+}
